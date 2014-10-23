@@ -12,7 +12,7 @@ width:70%;
     <?php 
 	$ids = $_POST['ids'];
 	$user="root";
-	$password="Getsuga@123";
+	$password="";
 	$dbh = new PDO("mysql:host=localhost;dbname=muzicmap", $user, $password);
 	$sql = " SELECT  `genre`.id AS id,  `genre`.name AS name, SUM(  `genreartistmap`.val ) AS Val
 						FROM  `genreartistmap` 
