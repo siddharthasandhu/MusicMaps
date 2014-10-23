@@ -1,7 +1,7 @@
 <?php
 
 $username="root";
-$password="Getsuga@123";
+$password="";
 $database="muzicmap";
 
 // Start XML file, create parent node
