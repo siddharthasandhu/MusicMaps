@@ -14,7 +14,7 @@ width:70%;
 	$ids = $_POST['ids'];
 	$genre = $_POST['genre'];
 	$user="root";
-	$password="Getsuga@123";
+	$password="";
 	$dbh = new PDO("mysql:host=localhost;dbname=muzicmap", $user, $password);
 	$sql = " SELECT g.id as id, g . name as name , g.genre as genre, g.location as location , g.image as image
 				FROM  `artist` g
