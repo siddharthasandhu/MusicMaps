@@ -7,7 +7,7 @@ body {background-image:url("love-and-music1.jpg");
 <?php
 $id = $_POST['ids'];
 $user="root";
-$password="Getsuga@123";
+$password="";
 $dbh = new PDO("mysql:host=localhost;dbname=muzicmap", $user, $password);
 $sql = " SELECT * FROM  `artist` g WHERE g.id= $id ";
 $result = $dbh->query($sql)->fetchAll(PDO::FETCH_ASSOC);
