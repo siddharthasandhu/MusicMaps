@@ -1,6 +1,6 @@
 <?php
 	$user="root";
-	$password="Getsuga@123";
+	$password="";
 	$database="muzicmap";
 	$con=mysqli_connect("localhost",$user,$password,$database);
 	if (mysqli_connect_errno()) {
