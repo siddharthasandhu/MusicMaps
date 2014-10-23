@@ -1,6 +1,6 @@
 <?php 
 $user="root";
-$password="Getsuga@123";
+$password="";
 $dbh = new PDO("mysql:host=localhost;dbname=muzicmap", $user, $password);
 
 $sql = "SELECT DISTINCT (
